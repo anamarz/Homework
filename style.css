@@ -6,6 +6,15 @@
 	margin: 50px auto;
 	font-family: 'Open Sans', sans-serif;
 }
+
+#tabs__cell {
+	font-family: 'Open Sans', sans-serif;
+	padding: 11px 82.5px;
+	background-color: #fff;
+	border: none;
+	border-bottom: 1px solid #C6CBCD;
+}
+
 #tabs__cell:first-child {
 	display: flex;
 	border: 1px solid #C6CBCD;
@@ -14,40 +23,45 @@
 	align-items: center;
 	border-bottom: 1px solid white;
 }
+
 .tabs__top-line {
-	border-collapse: collapse ;
-	width: 552px ;
+	width: 604px ;
 	justify-content: space-around;
 	text-align: center;
 	margin-bottom: -1px;
+	display: flex;
 }
+
 .tabs__container {
 	display: flex;
 	border: 1px solid #C6CBCD;
 }
+
 .tabs__block-wrapper {
 	padding-left: 100px;
 	padding-right: 30px;
 }
+
 .tabs__title {
 	display: flex;
 	align-items: center;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 30px;
 	margin-bottom: 27px;
 	height: 124px;
-	margin-top: 0;
-	
+	margin-top: 0;	
 }
+
 .tabs__text {
-	font-family: Raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	line-height: 32px;
 	display: flex;
-	align-items:center ;
+	align-items: center ;
 	height: 210px;
 	margin-bottom: 27px;
 }
+
 .tabs__download {
 	width: 270px;
 	height: 58px;
@@ -58,26 +72,30 @@
 	justify-content: center;
 	color: #fff;
 	background-color: #EC7979;
-	border:none
+	border: none;
 }
 
 
 .awesome {
-	font-family:'Raleway', sans-serif ;
+	font-family: 'Raleway', sans-serif ;
 	width: 1170px;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
+
 .awesome__title {
 	margin: 0;
 	font-size: 36px;
 	font-weight: 400;
 }
+
 .awesome__title-wrapper {
 	height: 150px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
 .awesome__line {
 	width: 170px;
 	border-bottom: 1px solid #EC7979;
@@ -85,21 +103,25 @@
 	margin-bottom: 40px;
 	
 }
+
 .awesome__subtitle {
 	font-size: 18px;
-	color:#86878B;
+	color: #86878B;
 	text-align: center;
 	margin-bottom: 110px;
 
 }
+
 .awesome__container {
 	display: flex;
 	justify-content: space-between;
 }
+
 .awesome__block {
-	width: 370px;
 	text-align: center;
+	width: 370px;
 }
+
 .awesome__icon-wrapper {
 	border: 1px  solid #EC7979;
 	height: 92px;
@@ -111,9 +133,9 @@
 	border-radius: 50%;
 	margin-bottom: 78px;
 }
+
 .awesome__block-title {
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin: 47px;
 	font-weight: 700;
-	
 }
