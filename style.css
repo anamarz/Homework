@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100&display=swap');
+
+.tabs {
+    width: 1170px;
+	margin: 50px auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#tabs__cell {
+	font-family: 'Open Sans', sans-serif;
+	padding: 11px 82.5px;
+	background-color: #fff;
+	border: none;
+	border-bottom: 1px solid #C6CBCD;
+}
+
+#tabs__cell:first-child {
+	display: flex;
+	border: 1px solid #C6CBCD;
+	border-radius: 5px 5px 0 0;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid white;
+}
+
+.tabs__top-line {
+	width: 604px ;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: -1px;
+	display: flex;
+}
+
+.tabs__container {
+	display: flex;
+	border: 1px solid #C6CBCD;
+}
+
+.tabs__block-wrapper {
+	padding-left: 100px;
+	padding-right: 30px;
+}
+
+.tabs__title {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 27px;
+	height: 124px;
+	margin-top: 0;	
+}
+
+.tabs__text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	display: flex;
+	align-items: center ;
+	height: 210px;
+	margin-bottom: 27px;
+}
+
+.tabs__download {
+	width: 270px;
+	height: 58px;
+	font-weight: 600;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-color: #EC7979;
+	border: none;
+}
+
+
+.awesome {
+	font-family: 'Raleway', sans-serif ;
+	width: 1170px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.awesome__title {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.awesome__title-wrapper {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.awesome__line {
+	width: 170px;
+	border-bottom: 1px solid #EC7979;
+	margin: auto;
+	margin-bottom: 40px;
+	
+}
+
+.awesome__subtitle {
+	font-size: 18px;
+	color: #86878B;
+	text-align: center;
+	margin-bottom: 110px;
+
+}
+
+.awesome__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.awesome__block {
+	text-align: center;
+	width: 370px;
+}
+
+.awesome__icon-wrapper {
+	border: 1px  solid #EC7979;
+	height: 92px;
+	width: 92px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin-bottom: 78px;
+}
+
+.awesome__block-title {
+	font-family: 'Open Sans', sans-serif;
+	margin: 47px;
+	font-weight: 700;
+}
